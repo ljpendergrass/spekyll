@@ -1,4 +1,4 @@
-$sidebar-width: 25%;
+$sidebar-width: 350px;
 
 .container {
 	position: relative;
@@ -16,9 +16,9 @@ $sidebar-width: 25%;
 	@media (min-width: 1000px) {
 		margin: 0 auto 0 $sidebar-width;
 		padding: 0 0 0 2rem;
-		width: calc( 100% - $sidebar-width);
+		width: calc( 100% - #{$sidebar-width} );
 	}
-	}
+}
 
 
 // .container{
@@ -35,12 +35,12 @@ $sidebar-width: 25%;
 	padding: 0 20px;
 	box-sizing: border-box;
 	//media queries for header/sidebar
+	@media (min-width: 550px) {
+		width: 80%;
+	}
 	@media (min-width: 400px) {
 		width: 85%;
 		padding: 0;
-	}
-	@media (min-width: 550px) {
-		width: 80%;
 	}
 	@media (min-width: 1000px) {
 		width: 20rem;
@@ -49,7 +49,6 @@ $sidebar-width: 25%;
 		left: 0;
 		bottom: 0;
 		width: $sidebar-width;
-		max-width: 350px;
 		text-align: left;
 		background: red;
 	}
