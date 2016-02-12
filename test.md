@@ -23,10 +23,10 @@ Header Level 2
   * Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
   * Aliquam tincidunt mauris eu risus.
 
-```
+{% highlight css %}
 #header h1 a {
   display: block;
   width: 300px;
   height: 80px;
 }
-```
+{% endhighlight %}
