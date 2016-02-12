@@ -1,5 +1,5 @@
-$font-pri: "Pt Sans", "Helvetica", Sans Serif;
-$font-sec: "Bitter", Georgia, Serif;
+$font-pri: "PT Serif", "Helvetica", Sans Serif;
+$font-sec: "PT Sans", Georgia, Serif;
 
 body{
 	background-color: #fafafa;
@@ -7,5 +7,8 @@ body{
 	font-weight: 400;
 	font-family: $font-pri;
 }
+
 h1, h2, h3, h4, h5, h6 {
-	font-family: $font-sec;}
+	font-family: $font-sec;
+	font-weight: bold;
+}
