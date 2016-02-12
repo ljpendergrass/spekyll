@@ -1,6 +1,6 @@
 .site-header{
 	background: $color-header;
-
+	padding-bottom: 1px;
 }
 
 .header-content{
@@ -17,7 +17,7 @@
 	position: relative;
 	width: 100%;
 	max-width: 960px;
-	padding: 1rem 2rem;
+	padding: 1rem 0;
 	box-sizing: border-box;
 
 	//media queries for header/sidebar
@@ -26,7 +26,6 @@
 	}
 	@media (min-width: 400px) {
 		width: 100%;
-		padding: 0;
 	}
 	@media (max-width: 1000px) {
 		margin-bottom: 2.5rem;
