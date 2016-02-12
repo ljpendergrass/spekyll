@@ -5,7 +5,7 @@ $sidebar-width: 350px;
 	width: 100%;
 	max-width: 960px;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 0 2rem;
 	box-sizing: border-box; 
 	// media queries for main container
 	@media (min-width: 550px) {
@@ -26,29 +26,3 @@ $sidebar-width: 350px;
 // 		margin: 0 auto 0 20rem;
 // 	}
 // }
-
-.site-header{
-		position: relative;
-	width: 100%;
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 0 20px;
-	box-sizing: border-box;
-	//media queries for header/sidebar
-	@media (min-width: 550px) {
-		width: 80%;
-	}
-	@media (min-width: 400px) {
-		width: 85%;
-		padding: 0;
-	}
-	@media (min-width: 1000px) {
-		width: 20rem;
-		position: fixed;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		width: $sidebar-width;
-		text-align: left;
-	}
-}
