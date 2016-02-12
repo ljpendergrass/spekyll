@@ -3,9 +3,10 @@ layout: default
 ---
 <article class="post">
 
-  <header class="post-header">
+  <div class="post-header">
     <h2 class="post-title">{{ page.title }}</h2>
-  </header>
+    <h4 class="post-date">{{ page.date | date_to_long_string }} // {{ page.content | number_of_words }} words</h4>
+  </div>
 
   <div class="post-content">
     {{ content }}

@@ -3,7 +3,7 @@ $font-sec: "PT Sans", Georgia, Serif;
 
 $color-pri: #E07426;
 $color-sec: #B26934;
-$color-header: #13141C;
+$dark: #1d1d1f;
 $color-footer: #3A3B42;
 $text-bright: #ddd;
 
@@ -18,3 +18,12 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: $font-sec;
 	font-weight: bold;
 }
+
+
+// fix code inline
+
+p code{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+

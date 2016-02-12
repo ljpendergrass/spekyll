@@ -1,19 +1,18 @@
 <footer>
 
-
-
-  <!-- <h4>{{ site.title }}</h4> -->
-
   <ul>
-    <li class="footer-icon"><i class="fa fa-facebook-official"></i></li>
-    <li class="footer-icon"><i class="fa fa-twitter"></i></li>
-    <li class="footer-icon"><i class=""></i></li>
-    <li class="footer-icon"><i class=""></i></li>
-    <li class="footer-icon"><i class=""></i></li>
-    <li class="footer-icon"><i class=""></i></li>
-    <li class="footer-icon"><i class=""></i></li>
+    {% if site.fb_url %}
+      <li class="footer-icon"><a href="https://www.facebook.com/{{ site.fb_url }}"><i class="fa fa-facebook-square"></i></a></li>
+    {% endif %}
+    {% if site.twitter_username %}
+      <li class="footer-icon"><a href="https://www.twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter-square"></i></a></li>
+    {% endif %}
+    {% if site.github_username %}
+      <li class="footer-icon"><a href="https://www.github.com/{{ site.github_username }}"><i class="fa fa-github-square"></i></a></li>
+    {% endif %}
+    {% if site.codepen_username %}
+      <li class="footer-icon"><a href="https://www.codepen.io/{{ site.codepen_username }}"><i class="fa fa-codepen"></i></a></li>
+    {% endif %}
   </ul>
-
-
-
+  <p class="copyright"><i class="fa fa-copyright"></i> {{ site.owner }}, 20{{ site.time | date: '%y' }}</p>
 </footer>

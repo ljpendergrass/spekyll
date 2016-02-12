@@ -5,7 +5,7 @@ $sidebar-width: 350px;
 	width: 100%;
 	max-width: 960px;
 	margin: 0 auto;
-	padding: 0 2rem;
+	padding: 0 2.5rem;
 	box-sizing: border-box; 
 	// media queries for main container
 	@media (min-width: 550px) {
@@ -15,7 +15,7 @@ $sidebar-width: 350px;
 		padding: 0; }
 	@media (min-width: 1000px) {
 		margin: 0 0 0 $sidebar-width;
-		padding: 2rem 2rem 0 2rem;
+		padding: 2.5rem 2.5rem 0 2.5rem;
 		width: calc( 100% - #{$sidebar-width} );
 	}
 }

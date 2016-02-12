@@ -8,12 +8,16 @@
 # Site settings
 title: Learning to see
 email: logmister@gmail.com
+owner: Logan Pendergrass
 description: > # this means to ignore newlines until "baseurl:"
   The portfolio of Logan Pendergrass : Learning to see, one project at a time
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+fb_url: logan.pendergrass
 twitter_username: ljp_206
-github_username:  ljpendergrass
+github_username: ljpendergrass
+codepen_username: djmankiewicz
+
 
 # Build settings
 markdown: kramdown
